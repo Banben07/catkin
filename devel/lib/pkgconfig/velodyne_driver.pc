@@ -1,0 +1,8 @@
+prefix=/home/sakamoto/catkin_ws_navi/devel
+
+Name: velodyne_driver
+Description: Description of velodyne_driver
+Version: 1.6.1
+Cflags: -I/home/sakamoto/catkin_ws_navi/devel/include -I/home/sakamoto/catkin_ws_navi/src/velodyne/velodyne_driver/include
+Libs: -L${prefix}/lib -lvelodyne_input
+Requires: diagnostic_updater dynamic_reconfigure nodelet roscpp tf velodyne_msgs

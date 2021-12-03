@@ -1,0 +1,2 @@
+set(scout_msgs_MESSAGE_FILES "/home/sakamoto/catkin_ws_navi/src/scout_ros/scout_msgs/msg/ScoutStatus.msg;/home/sakamoto/catkin_ws_navi/src/scout_ros/scout_msgs/msg/ScoutMotorState.msg;/home/sakamoto/catkin_ws_navi/src/scout_ros/scout_msgs/msg/ScoutLightState.msg;/home/sakamoto/catkin_ws_navi/src/scout_ros/scout_msgs/msg/ScoutLightCmd.msg;/home/sakamoto/catkin_ws_navi/src/scout_ros/scout_msgs/msg/ScoutBmsStatus.msg;/home/sakamoto/catkin_ws_navi/src/scout_ros/scout_msgs/msg/ScoutDriverState.msg")
+set(scout_msgs_SERVICE_FILES "")

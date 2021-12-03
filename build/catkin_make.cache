@@ -1,0 +1,2 @@
+mycar_description:nav:robot_setup_tf:teb_local_planner:urdf_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/sakamoto/Music/catkin_ws_navi/devel -DCMAKE_INSTALL_PREFIX=/home/sakamoto/Music/catkin_ws_navi/install -G Unix Makefiles

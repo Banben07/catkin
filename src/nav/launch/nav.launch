@@ -1,0 +1,7 @@
+<launch>
+
+    <include file="$(find nav)/launch/map_server.launch" />
+    <include file="$(find nav)/launch/amcl.launch" />
+    <include file="$(find nav)/launch/move_base.launch" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="map_odom_broadcaster" args="0 0 0 0 0 0 /map /odom" />
+</launch>
